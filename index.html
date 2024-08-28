@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="./images/favicon.png" />
+    <link rel="stylesheet" href="styles.css" />
+    
+    <title>Remove Background</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Remove Background Online</h1>
+      <h4>We are best at what we do</h4>
+
+      <form>
+        <div class="img">
+          <img id="uploadedImage" src="./images/remove_background.webp" alt="image" />
+        </div>
+        <div class="btn">
+          <input
+            type="file"
+            id="fileInput"
+            accept=".jpg, .jpeg, .png"
+            style="display: none"
+          />
+          <label id="file" for="fileInput" class="custom-file-input"
+            >Choose File</label
+          >
+
+          <button
+            type="button"
+            id="removeBgButton"
+            onclick="submitHandler()"
+            style="background-color: #552b9c"
+          >
+            <span class="btn__text">Upload</span>
+          </button>
+
+          <div class="btn-container">
+            <button
+              onclick="reset()"
+              id="reloadBtn"
+              style="background-color: #971111"
+            >
+              Reset
+            </button>
+            <button
+              style="background-color: #047762"
+              onclick="downloadFile()"
+              id="downloadBtn"
+            >
+              Download
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+     <footer>
+      <p>Created by Piyush Badgujar</p>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
