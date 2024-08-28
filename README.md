@@ -22,20 +22,20 @@ For a basic HTML, CSS, and JavaScript project, no additional dependencies are re
 
 3. API Key
 
-To use the remove.bg API, replace the placeholder API key in script.js with your own key:
-const apiKey = "YOUR_API_KEY_HERE";
+- To use the remove.bg API, replace the placeholder API key in script.js with your own key:
+- ```const apiKey = "YOUR_API_KEY_HERE";```
 
 ### 🛠 Usage
 
-1. Upload an Image
+#### 1. Upload an Image
 
 Click the "Choose File" button to select an image from your computer.
 
-2. Remove Background
+#### 2. Remove Background
 
 Click the "Upload" button to process the image. The background will be removed, and you'll see the updated image.
 
-3. Download or Reset
+#### 3. Download or Reset
 
 - Download: Click the "Download" button to save the processed image to your device.
 - Reset: Click the "Reset" button to start over with a new image.
@@ -44,11 +44,11 @@ Click the "Upload" button to process the image. The background will be removed, 
 
 To make changes or contribute to the project:
 
-Fork the repository.
-Create a new branch (git checkout -b feature-branch).
-Make your changes.
-Commit and push (git commit -am 'Add new feature').
-Create a pull request.
+- Fork the repository.
+- Create a new branch (git checkout -b feature-branch).
+- Make your changes.
+- Commit and push (git commit -am 'Add new feature').
+- Create a pull request.
 
 ### 🔒 License
 
